@@ -1,0 +1,105 @@
+
+.gradient-background {
+    background: linear-gradient(300deg, #292933, #3a3845, #372f2f);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+}
+.header-container {
+    background-color: #222;
+    text-align: center;
+    padding-top: 20px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+  }
+a:hover {
+    color: #1515b2
+}  
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: rgb(207, 197, 197);
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-shadow: 1px 1px 3px rgb(175, 167, 167);
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 30px 0px 30px 10px;    
+}
+header h2 {
+    font-family: "Noto Sans", serif;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgb(175, 167, 167);
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding-bottom: 50px;
+}
+header img {
+    border: 1px solid rgb(175, 167, 167);
+    
+}
+.about-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+    margin-top: 90px;
+    background-color: rgb(207, 197, 197);
+}
+
+.text-container {    
+    padding: 60px;
+    width: 750px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 0.1em;
+    flex: 1;
+}
+.text-container p {
+    font-family: "Noto Sans", serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0.1em;
+    
+}
+.img-container img {
+    height: 500px;
+    border-radius: 35%;
+    margin: 0px 150px;
+    flex: 1;
+}
+
+@media (max-width: 1200px) {
+    .about-container {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .image-container {
+        width: 100%;
+    }
+    
+    .text-container {
+        width: 100%;
+    }
+}
